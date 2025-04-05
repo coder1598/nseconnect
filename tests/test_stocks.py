@@ -2,8 +2,8 @@ import sys
 import os
 import unittest
 # sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-from nsetools import Nse
-from nsetools.utils import cast_intfloat_string_values_to_intfloat
+from nseconnect import Nse
+from nseconnect.utils import cast_intfloat_string_values_to_intfloat
 
 
 class TestStockAPIs(unittest.TestCase):

@@ -5,8 +5,8 @@ import sys
 import os
 from datetime import datetime as dt
 # sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-from nsetools.ua import Session
-from nsetools import urls
+from nseconnect.ua import Session
+from nseconnect import urls
 
 class TestSession(unittest.TestCase):
     def setUp(self):

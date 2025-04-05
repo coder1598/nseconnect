@@ -4,7 +4,7 @@ import sys
 
 # sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
-from nsetools.utils import cast_intfloat_string_values_to_intfloat
+from nseconnect.utils import cast_intfloat_string_values_to_intfloat
 
 class TestUtils(unittest.TestCase):
     def test_cast_dict_values(self):
