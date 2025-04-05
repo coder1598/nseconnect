@@ -37,7 +37,7 @@ For complete documenation, please refer http://nsetools.readthedocs.io
 
 setup(
     name="nseconnect",
-    version="1.0.1",
+    version="1.0.2",
     author="Noufal Nazar",
     author_email="naufalnazar@icloud.com",
     description="Python library for extracting real-time data from National Stock Exchange (India)",
